@@ -1,52 +1,96 @@
-Desktop To-Do List Application
 
-A feature-rich and lightweight to-do list application for Windows, macOS, and Linux, built with modern web technologies and the Tauri framework.
+# 📝 Desktop To-Do List Application
 
-Description
+A **feature-rich** and **lightweight** desktop to-do list app for **Windows**, **macOS**, and **Linux** — built using modern web technologies and the blazing-fast **Tauri** framework.
 
-This isn't just another to-do list. This application was built to be a fast, reliable, and native-feeling desktop utility. It allows users to manage their daily tasks efficiently, set deadlines with specific dates and times, and receive timely notifications with a countdown timer for urgent tasks. The app leverages the power of Tauri and Rust to provide a high-performance experience with a very small installation footprint.
+---
 
-Features
+## 🚀 Overview
 
-Task Management: Add, delete, and mark tasks as complete.
+This isn't just another to-do list.
 
-Task Persistence: Your to-do list is automatically saved to your local machine, so you never lose your data.
+Designed to be **fast**, **minimal**, and **native-feeling**, this app empowers you to manage your daily tasks effortlessly. With **smart deadlines**, **live countdowns**, and **local task storage**, staying productive has never felt smoother.
 
-Deadlines: Assign a specific date and time to each task.
+Built with ❤️ using **Tauri** and **Rust**, this app delivers **high performance** and a **tiny install size** — all from a single codebase.
 
-Automatic Countdown Timer: For tasks due within the next 24 hours, a live countdown timer automatically appears to help you stay on track.
+---
 
-Cross-Platform: Built with Tauri, the application can be compiled for Windows, macOS, and Linux from a single codebase.
+## ✨ Features
 
-Tech Stack
+* ✅ **Task Management**
+  Add, delete, and mark tasks as complete with ease.
 
-Frontend: HTML5, CSS3, JavaScript (ES6+)
+* 💾 **Automatic Persistence**
+  All your tasks are saved locally — no internet required, no data loss.
 
-Framework: Tauri
+* ⏰ **Deadlines & Reminders**
+  Set exact dates and times for each task.
 
-Backend Core: Rust
+* ⏳ **Live Countdown Timer**
+  Tasks due within 24 hours display a real-time countdown to keep you focused.
 
-Package Manager: NPM
+* 🖥️ **Cross-Platform**
+  Works seamlessly on **Windows**, **macOS**, and **Linux**.
 
-Setup and Installation
+---
 
-To run this project locally, follow these steps:
+## 🧰 Tech Stack
 
-Clone the repository:
+| Layer        | Technology                     |
+| ------------ | ------------------------------ |
+| 🖼 Frontend  | HTML5, CSS3, JavaScript (ES6+) |
+| ⚙️ Backend   | Rust (via Tauri)               |
+| 📦 Manager   | NPM                            |
+| 🧪 Framework | [Tauri](https://tauri.app)     |
 
-git clone [https://github.com/Cyber-Shark-02/todo-tauri.git](https://github.com/Cyber-Shark-02/todo-tauri.git)
+---
 
+## 🛠️ Installation & Setup
 
-Navigate to the project directory:
+Follow these steps to run the project locally:
 
+### 1. 📥 Clone the Repository
+
+```bash
+git clone https://github.com/Cyber-Shark-02/todo-tauri.git
+```
+
+### 2. 📂 Navigate to the Project Directory
+
+```bash
 cd todo-tauri
+```
 
+### 3. 📦 Install Dependencies
 
-Install the dependencies:
-
+```bash
 npm install
+```
 
+### 4. 🧪 Run in Development Mode
 
-Run the application in development mode:
-
+```bash
 npm run tauri dev
+```
+
+---
+
+## 📸 Preview (Optional)
+
+![Todo](https://github.com/user-attachments/assets/c851bdf0-ab0f-4a69-bcc1-e8eb8b7b94cf)
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+---
+
+
+## 🙌 Acknowledgements
+
+* [Tauri](https://tauri.app) — for making native apps with web tech possible.
+* [Rust](https://www.rust-lang.org/) — performance without compromise.
+
+---
