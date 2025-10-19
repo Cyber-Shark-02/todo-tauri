@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+        The custom title bar has been removed. 
+        Tauri will now provide the default OS window frame.
+    -->
+    <div class="todo-app">
+        <div class="app-header">
+            <!-- Changed back to your local image -->
+            <img src="images/todo.png" alt="todo" style="width: 50px; border-radius: 8px;">
+            <h1>My To-Do List</h1>
+        </div>
+
+        <div class="input-section">
+            <input type="text" id="input-box" placeholder="Add a new task...">
+            <input type="date" id="date-box">
+            <input type="time" id="time-box">
+            <button id="add-button">Add</button>
+        </div>
+
+        <ul id="list-container"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
